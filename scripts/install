@@ -47,8 +47,8 @@ install_jellyfin_packages
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_print_info --message="Waiting 30s to let Jellyfin fully start a first time..."
-sleep 30
+ynh_print_info --message="Waiting 90s to let Jellyfin fully start a first time..."
+sleep 90
 
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
